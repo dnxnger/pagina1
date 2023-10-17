@@ -1,0 +1,143 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    overflow: hidden;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px; /* Espacio entre las listas */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* Color del texto de las listas */
+}
+
+h1 {
+    margin: 0; /* Elimina el margen predeterminado del título */
+}
+
+.encabezados h1,
+.encabezados h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+
+/* Estilos de la navegación */
+nav ul {
+    text-align: right;
+    list-style-type: none;
+    vertical-align: text-top;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos de las secciones */
+section {
+    padding: 40px;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+/* Estilo para el contenedor de redes sociales */
+.redes-sociales {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilo para cada ícono y enlace */
+.redes-sociales li {
+    display: inline;
+    margin-right: 10px; /* Espacio entre íconos */
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    color: #fcfafa; /* Color de ícono */
+    font-size: 20px; /* Tamaño del ícono */
+    transition: color 0.3s; /* Transición de color al pasar el cursor */
+}
+
+.redes-sociales a:hover {
+    color: #0073e6; /* Color al pasar el cursor sobre el ícono */
+}
+
+/* Estilos para la sección de proyectos */
+#proyectos {
+    text-align: center;
+    padding: 40px;
+}
+
+#proyectos h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Crea una cuadrícula flexible */
+    gap: 20px; /* Espacio entre las miniaturas */
+}
+
+.galeria a {
+    display: block; /* Asegura que los enlaces ocupen todo el espacio de la miniatura */
+    border: 1px solid #ddd; /* Un borde ligero alrededor de cada miniatura */
+    padding: 10px;
+    text-decoration: none;
+}
+
+.galeria a img {
+    max-width: 100%;
+    height: auto;
+}
+/* Estilos para centrar la imagen en la portada */
+.imagen-portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura de la imagen a la altura de la ventana (viewport) */
+}
+
+.imagen-portada img {
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+    max-height: 100%; /* Asegura que la imagen no sea más alta que su contenedor */
+}
+body {
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-colorido-fondo-negro-fondo-morado-azul-diseno-brillante_878402-4168.jpg); /* Cambia 'ruta-de-la-imagen.jpg' por la ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen de fondo para que no se desplace con el contenido */
+}
